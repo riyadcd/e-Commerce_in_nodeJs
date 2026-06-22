@@ -1,0 +1,34 @@
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+    display: block;
+    width: 30%;
+    margin-bottom: 0.25rem;
+}
+
+.form-control input {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+}
+
+.form-control input:focus
+.form-control textarea:focus {
+
+    outline-color: #00695c;
+}
+.user-message { /* Correct */
+    border: 1px solid rgb(67, 104, 226);
+    color:blue;
+    padding: 10px;
+    text-align: center;
+}
+.user-message-error {
+    background-color: #ffcccc;
+    color: #880000;
+    text-align: center;
+}

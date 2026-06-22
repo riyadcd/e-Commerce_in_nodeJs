@@ -1,0 +1,20 @@
+.login_form {
+    width: 50rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+.user-message { /* Correct */
+    border: 1px solid rgb(67, 104, 226);
+    color:blue;
+    padding: 10px;
+    text-align: center;
+}
+.user-message-error {
+    background-color: #ffcccc;
+    color: #880000;
+    text-align: center;
+}
+.form-control input.invalid{
+    border-color : red;
+}
